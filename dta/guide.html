@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" /><title>Guide</title>
+    <link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.1/dist/terminal.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.1/dist/terminal.min.css" />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    
+    <link rel="stylesheet" href="/terminal.min.css" />
+     
+    <link
+    rel="apple-touch-icon"
+    sizes="57x57"
+    href="/favicon/apple-icon-57x57.png"
+    />
+
+    <style>
+    .components-grid {
+      display: grid;
+      grid-column-gap: 1.4em;
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+    }
+
+    .image-grid {
+      display: grid;
+      grid-template-rows: auto;
+      display: grid;
+      grid-gap: 1em;
+      grid-template-rows: auto;
+      grid-template-columns: repeat(
+        auto-fit,
+        minmax(calc(var(--page-width) / 12), 1fr)
+      );
+    }
+
+    @media only screen and (min-width: 70em) {
+      .components-grid {
+        grid-template-columns: 3fr 9fr;
+      }
+    }
+    </style>
+
+    <style>
+      :root {
+        --global-font-size: 15px;
+        --global-line-height: 1.4em;
+        --global-space: 10px;
+        --font-stack: Menlo, Monaco, Lucida Console, Liberation Mono,
+          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
+          serif;
+        --mono-font-stack: Menlo, Monaco, Lucida Console, Liberation Mono,
+          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
+          serif;
+        --background-color: #222225;
+        --page-width: 60em;
+        --font-color: #e8e9ed;
+        --invert-font-color: #222225;
+        --secondary-color: #a3abba;
+        --tertiary-color: #a3abba;
+        --primary-color: #62c4ff;
+        --error-color: #ff3c74;
+        --progress-bar-background: #3f3f44;
+        --progress-bar-fill: #62c4ff;
+        --code-bg-color: #3f3f44;
+        --input-style: solid;
+        --display-h1-decoration: none;
+      }
+    </style>
+</head>
+<body class="terminal">
+  <div class="container">
+  <div class="terminal-nav">
+    <header class="terminal-logo">
+      <div class="logo terminal-prompt"><a href="http://www.disum.unict.it/corsi/lm-43" class="no-style">DISPENSE</a></div>
+    </header>
+  </div>
+  </div>
+<div class="container">    
+    <header><h2 id="Contributors">DISPENSE</h2></header>
+      <ul>
+        <li>
+          <div class="terminal-card" id="D1">
+            <header>CORPUS FOR DUMMIES</header>
+            <div>
+              <p>Guida per la sopravvivenza all'interno di ambienti di costruzione, consulta ed analisi di corpus testuali (<a href="http://corpora.lancs.ac.uk/lancsbox/download.php">LANCSBOX</a> e <a href="http://corpora.lancs.ac.uk/stats/toolbox.php">STATOOLS ONLINE</a>)</p>
+            </div>          
+            <!--<button class="btn btn-default btn-ghost" ><a href="https://teams.microsoft.com/l/file/7613E5D4-778D-4282-B9B2-C87BC7BB86F7?tenantId=baeefbc8-3c8b-4382-9126-e86bfef46ce6&fileType=docx&objectUrl=https%3A%2F%2Fstudentiunict.sharepoint.com%2Fsites%2FDigitalTextScienceUnderground9%2FShared%20Documents%2FGeneral%2FGuide%2FCorpus%20for%20dummies.docx&baseUrl=https%3A%2F%2Fstudentiunict.sharepoint.com%2Fsites%2FDigitalTextScienceUnderground9&serviceName=teams&threadId=19:527cfe4783d6443b9e80ac44d27bf096@thread.tacv2&groupId=f6d1d94d-3765-4640-bf50-48007d7fcf64">Scarica</a></button>-->
+            <ul>
+              <li><autore><a href="https://it.linkedin.com/in/stefano-angelo-rizzo-b32a6a1b2?trk=public_profile_browsemap_profile-result-card_result-card_full-click">Stefano Angelo Rizzo</a></autore></li>
+              <li><autore><a href="https://it.linkedin.com/in/cristina-maya-rao-35a584170">Cristina Maya Rao</a></autore></li>
+              <li><autore><a href="https://www.facebook.com/martina.bentivegna.3">Martina Bentivegna</a></autore></li>
+            </ul><br />
+            <button class="btn btn-default btn-ghost" ><a href="files/guide_dispense/corpus_for_dummies.docx">Scarica</a></button>
+          </div> 
+        </li><br />
+
+        <li>
+          <div class="terminal-card" id="D2">
+            <header>LA PER NULLA PROFESSIONALE (MA IMMEDIATA) GUIDA TEI</header>
+            <div>
+              <p>E se mettessimo intelligenza all'interno del testo piuttosto che all'interno della macchina ? (La <a href="https://tei-c.org/">TEI</a> ed <a href="https://it.wikipedia.org/wiki/XML">XML</a>)</p>
+            </div>
+            <ul>
+              <li><autore><a href="https://it.linkedin.com/in/stefano-angelo-rizzo-b32a6a1b2?trk=public_profile_browsemap_profile-result-card_result-card_full-click">Stefano Angelo Rizzo</a></autore></li>
+            </ul><br />          
+            <button class="btn btn-default btn-ghost" ><a href="files/guide_dispense/la_per_nulla_professionale_ma_immediata_guida_tei.docx">Scarica</a></button>            
+          </div>             
+        </li><br />
+          
+        
+        
+        <li>
+          <div class="terminal-card" id="D3">
+            <header>PARLAMI DI WORDPRESS SENZA DIRE WORDPRESS</header>
+            <div>
+              <p>Costruire una pagina web ? E che sarà mai... (<a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjU5cLtgtvyAhWyIHsKHSjbB2kYABAAGgJsZQ&ae=2&ohost=www.google.com&cid=CAASEuRoB5DgmvZo3UyPhz0M6p5k1w&sig=AOD64_00yV-lJXPMUCSRHVlwrru2mbdNkg&q&adurl&ved=2ahUKEwiwrLrtgtvyAhU7QfEDHcokCXgQ0Qx6BAgCEAE">WORDPRESS</a>)</p>
+            </div>   
+            <ul>
+              <li><autore><a href="https://it.linkedin.com/in/agatacal%C3%AC">Agata Calì</a></autore></li>
+              <li><autore><a href="https://www.facebook.com/sonia.grassia.ponga">Sonia Grassia</a></autore></li> 
+              <li><autore><a href="https://www.facebook.com/martina.bentivegna.3">Martina Bentivegna</a></autore></li>
+            </ul><br />
+            <button class="btn btn-default btn-ghost" ><a href="files/guide_dispense/parlami_di_wordpress_senza_dire_wordpress.docx">Scarica</a></button>
+          </div>             
+        </li><br />
+      </ul> 
+  </div>
+</body>
+</html>
